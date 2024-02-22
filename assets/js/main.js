@@ -6,8 +6,18 @@ const emailsRegistered = ['andre.caponi@libero.it', 'rebecca420@gmail.com', 'ste
 //console.log(emailsRegistered);
 
 //submit email
-const mailCostumer = prompt("If you're already signed in please write your email")
-console.log(mailCostumer);
+const mailCostumer = document.getElementById('email_costumer');
+
+
+document.querySelector(`form`).addEventListener('submit', function (e) {
+    //I call the function e because i need a name to choose from
+    e.preventDefault();
+    //read email value
+    console.log(mailCostumer);
+
+})
+
+
 
 let checkEmail = 0;
 
