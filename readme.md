@@ -12,10 +12,10 @@ Buon lavoro e buon divertimento! -->
 - MAIL:
     - write a mail iside an input box
     - check if the mail is already inside the system (for)
-        if === true 
-          start plaing dice
-        else
-            warning message (alert?)
+        - if === true 
+          - start plaing dice
+        - else
+            - warning message (alert?)
     
 - DICE GAME:
     - generate random number from 1 to 6 (var com)
