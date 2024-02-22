@@ -33,6 +33,7 @@ console.log("COMPUTER: " + diceCOM);
 //     - generate random number from 1 to 6 (var player)
 const dicePLAYER = Math.floor(Math.random() * 10)+1;
 console.log("PLAYER: " + dicePLAYER);
+alert ("Your dice: " + dicePLAYER + ", the computer dice: " + diceCOM)
 //         if com>player
 if (diceCOM > dicePLAYER) {
     alert('YOU LOST')
