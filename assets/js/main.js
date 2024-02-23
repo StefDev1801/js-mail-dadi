@@ -39,14 +39,15 @@ emailBtn.addEventListener('click', function(){
         }
     }
     if (checkEmail != 1) {
-        alert ("You don't have an account")
+        alert ("You don't have an account");
+        checkEmail--;
     }else{
         // - DICE GAME:
     //     - generate random number from 1 to 6 (var com)
-    const diceCOM = Math.floor(Math.random() * 10)+1;
+    const diceCOM = Math.floor(Math.random() * 6)+1;
     console.log("COMPUTER: " + diceCOM);
     //     - generate random number from 1 to 6 (var player)
-    const dicePLAYER = Math.floor(Math.random() * 10)+1;
+    const dicePLAYER = Math.floor(Math.random() * 6)+1;
     console.log("PLAYER: " + dicePLAYER);
     alert ("Your dice: " + dicePLAYER + ", the computer dice: " + diceCOM)
     //         if com>player
